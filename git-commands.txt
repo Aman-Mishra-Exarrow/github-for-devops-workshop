@@ -11,3 +11,12 @@
  ls -l
  ls -a
  git restore testing.py
+ git remote add origin https://github.com/Aman-Mishra-Exarrow/github-for-devops-workshop.git
+ git remote -v
+ git status
+ git log --oneline
+ git remote set-url origin https://token@github.com/Aman-Mishra-Exarrow/github-for-devops-workshop.git
+ git push origin master
+ git push origin main
+ git add testing.py
+ git commit -m "made some changes in testing.py"
