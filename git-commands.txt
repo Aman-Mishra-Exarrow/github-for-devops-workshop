@@ -20,5 +20,7 @@
  git push origin main
  git add testing.py
  git commit -m "made some changes in testing.py"
-
+ git switch prod
+ git branch
+ git checkout --orphan empty-branch
  this is some new changes
