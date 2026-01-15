@@ -1,2 +1,8 @@
-print("Hello, Dosto")
-print("This is another push from local repo")
+def hello():
+    """
+    this is demo
+    """
+    return "Hello Dosto"
+
+
+hello()
