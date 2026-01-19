@@ -17,4 +17,4 @@ def my_function() -> int:
 
 
 if __name__ == "__main__":
-    my_function()
+my_function()
